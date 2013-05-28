@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+	android:background="#ffffffff" 
+	android:orientation="vertical"
+	android:id="@+id/dialog">
+	
+	<LinearLayout 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"	 
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:orientation="horizontal"
+	    >
+   
+	　　 <TextView 
+    	android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:id="@+id/tvname" 
+		android:text="服务器IP:" />
+	　　 <EditText 
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" 
+			android:id="@+id/guideID" 
+			android:minWidth="70dp"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"	 
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    >
+   
+	　　 <TextView 
+    	android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:id="@+id/tvname" 
+		android:text="电视1_IP:" />
+	　　 <EditText 
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" 
+			android:id="@+id/customID" 
+			android:minWidth="70dp"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent"	 
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    >
+	　　    
+	　　 <TextView 
+    	android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:id="@+id/tvname" 
+		android:text="电视2_IP:" />
+
+        <EditText
+            android:id="@+id/passwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:minWidth="70dp"/>
+
+	</LinearLayout>
+	
+	
+	</LinearLayout>

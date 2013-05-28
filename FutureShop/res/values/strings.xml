@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="app_name">FutureShop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">新世界现代珍宝馆</string>
+    <string name="navBar1">商品信息查询</string>
+    <string name="navBar2">会员中心</string>
+    <string name="navBar3">购物车</string>
+    
+    
+    
+    <string name="prod_name">名称</string>
+    <string name="prod_num">库存</string>
+    <string name="prod_price">价格</string>
+    <string name="prod_desc">描述</string>
+    <string name="prod_zone">所在区域</string>
+    
+    <string name="Continus_Scan">Continus Scan</string>
+    
+    <!-- 商品分类 -->
+    <string-array name="classify">
+	<item>书画</item>
+	<item>金器</item>
+	<item>玉器</item>
+	<item>玛瑙</item>
+	<item>象牙</item>
+	<item>其他</item>
+	</string-array>
+    
+    <!-- 商品标题 -->
+    <string-array name="Goods_title">
+	<item>名称</item>
+	<item>类型</item>
+	<item>价格</item>
+	<item>产地</item>
+	<item>规格</item>
+	<item>材质</item>
+	<item>标准</item>
+	<item>详细介绍</item>
+	</string-array>
+    <!-- 商品古典器皿  -->
+    <string-array name="two">
+	<item>Iphone 4s</item>
+	<item>手机</item>
+	<item>5,000</item>
+	<item>美国</item>
+	<item></item>
+	<item></item>
+	<item></item>
+	<item>无</item>
+	</string-array>
+	
+    <!-- 字画  -->
+    <string-array name="three">
+	<item>熊猫</item>
+	<item>字画</item>
+	<item>120,000</item>
+	<item>北京</item>
+	<item></item>
+	<item>水墨画</item>
+	<item></item>
+	<item>无</item>
+	</string-array>
+
+</resources>

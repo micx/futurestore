@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    >
+ 
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+ 
+        <ImageView 
+            android:id="@+id/img"
+        	android:layout_height="fill_parent"
+        	android:layout_width="120dp"
+        	android:gravity="center"
+        	android:padding="5dp"
+        	android:background="#ffffff"
+        	/>
+        
+        <TextView android:id="@+id/title"
+            android:layout_width="220dp"
+            android:layout_height="fill_parent"
+            android:textColor="@android:color/black"
+            android:textSize="23dp" 
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            />
+        
+        <TextView android:id="@+id/price"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:textColor="@android:color/black"
+            android:textSize="23dp" 
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            />
+             
+            
+              <ImageButton 
+		          android:id="@+id/minesbtn"
+		          android:layout_width="40dp"
+            	android:layout_height="40dp"
+                 android:background="@drawable/minusbutton" 
+         
+                 android:layout_gravity="center" />
+		        <TextView android:id="@+id/num"
+		            android:layout_width="50dp"
+		            android:layout_height="fill_parent"
+		            android:textColor="@android:color/black"
+		            android:textSize="23dp" 
+		            android:gravity="center"
+		            />
+		         <ImageButton 
+                 android:id="@+id/plusbtn"
+                 android:layout_width="40dp"
+           		 android:layout_height="40dp"
+                 android:background="@drawable/plusbutton"
+                 android:layout_gravity="center" />
+		     
+		      
+		      
+		      <ImageButton 
+		          android:id="@+id/delete"
+		          android:layout_width="50dp"
+            	android:layout_height="50dp"
+                 android:background="@drawable/delete" 
+                 android:layout_marginLeft="50dp"
+                 android:layout_gravity="center" />
+ 
+ 
+    </LinearLayout>
+ 
+ 
+</LinearLayout>

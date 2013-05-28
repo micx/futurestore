@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="myLabel">
+	    <!-- item name="android:textSize">18sp</item-->
+    	<item name="android:background">#90AAAAAA</item>
+    	<!-- item name="android:textColor">#A7B4AC</item-->
+	</style>
+	<style name="mySpinner">
+    	<item name="android:background">#90AAAAAA</item>
+	</style>
+</resources>
